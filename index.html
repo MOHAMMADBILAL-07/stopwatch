@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+        background-color: black;
+        text-align: center;
+    }
+    h1 {
+        color: blanchedalmond;
+        display: inline-block;
+        background-color: gray;
+        width: 100px;
+    }
+    
+    mainh {
+        display: inline-flex;
+    }
+</style>
+<body class="stopwatch">
+    <div class="mainh">
+        <h1>Stop Watch</h1>
+    </div>
+
+    <div>
+        <h1 id="hr">0</h1>
+        <h1 id="min">0</h1>
+        <h1 id="sec">0</h1>
+        <h1 id="msec">0</h1>
+    </div>
+    <div>
+        <button onclick="start()">Start</button>
+        <button onclick="pause()">Pause</button>
+        <button onclick="reset()">Reset</button>
+    </div>
+    <script src="node.js"></script>
+</body>
+</html>
